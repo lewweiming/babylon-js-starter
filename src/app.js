@@ -3,8 +3,8 @@ import Game from '../lib/game.js'
 window.addEventListener('DOMContentLoaded', initGame)
 
 function removeExistingCanvas() {
-  const els = document.body.children
-  if (els.length > 0) document.body.removeChild(els.item(0))
+  const el = document.querySelector('canvas')
+  el.remove();
 }
 
 function initCanvas() {

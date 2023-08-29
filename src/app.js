@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', initGame)
 
 function removeExistingCanvas() {
   const el = document.querySelector('canvas')
-  el.remove();
+  if(el) el.remove();
 }
 
 function initCanvas() {

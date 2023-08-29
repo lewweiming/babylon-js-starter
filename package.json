@@ -1,0 +1,14 @@
+{
+  "name": "babylon-js-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "babylonjs": "^6.18.0"
+  }
+}
